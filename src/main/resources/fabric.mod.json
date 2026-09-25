@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "awesomeareas",
+  "version": "${version}",
+  "name": "Awesome Areas",
+  "description": "cool mod for regions and sub-regions to simulate countries, provinces, cities, and other territories",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/awesomeareas/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.wavemelon.awesomeareas.client.AwesomeAreasDataGenerator"
+    ],
+    "client": [
+      "org.wavemelon.awesomeareas.client.AwesomeAreasClient"
+    ],
+    "main": [
+      "org.wavemelon.awesomeareas.AwesomeAreas"
+    ]
+  },
+  "mixins": [
+    "awesomeareas.mixins.json",
+    {
+      "config": "awesomeareas.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
