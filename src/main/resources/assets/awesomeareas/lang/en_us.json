@@ -1,0 +1,21 @@
+{
+  "key.category.awesomeareas.general": "Awesome Areas",
+  "key.awesomeareas.open_map": "Open Territory Map",
+  "key.awesomeareas.toggle_minimap": "Toggle Minimap HUD",
+  "key.awesomeareas.toggle_borders": "Toggle Border Visualizer",
+
+  "awesomeareas.type.country": "Country",
+  "awesomeareas.type.province": "Province",
+  "awesomeareas.type.county": "County",
+  "awesomeareas.type.city": "City",
+  "awesomeareas.type.district": "District",
+  "awesomeareas.type.neighborhood": "Neighborhood",
+  "awesomeareas.type.plot": "Plot",
+  "awesomeareas.type.custom": "Custom Area",
+
+  "awesomeareas.gui.map_title": "Territory Map",
+  "awesomeareas.gui.search_placeholder": "Search areas...",
+  "awesomeareas.gui.leader": "Leader",
+  "awesomeareas.gui.population": "Population",
+  "awesomeareas.gui.homes": "Registered Homes"
+}
